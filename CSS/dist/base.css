@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  font-family: "Source Code Pro", "Courier New", monospace;
+}
+
+#Master-Container {
+  background-color: red;
+  border: 18px solid red;
+  border-radius: 10px;
+  position: fixed;
+  top: 1vh;
+  bottom: 1vh;
+  left: 1vh;
+  right: 1vh;
+  overflow-y: scroll;
+}

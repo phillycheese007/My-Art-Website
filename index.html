@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/dist/base.css">
+  <link rel="stylesheet" href="CSS/dist/sidebar.css">
+  <link rel="stylesheet" href="CSS/dist/photo-grid.css">
+  <link rel="stylesheet" href="CSS/dist/custom-scroll-bar.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="Master-Container">
+<!--OPTIMIZE--><!--UGLY--><!--TODO-->
+
+
+  <!--#region [rgba(197, 65, 120, 0.1) ]-->
+
+  <div id="Right-Sidebar"">
+    <div><a href="work.html">Work</a></div>
+    <div><a href="about.html">About</a></div>
+    <div><a href="contact.html">Contact</a></div>
+  </div>
+  
+  
+  
+  <!--#endregion-->
+
+  <!--OPTIMIZE--><!--UGLY--><!--TODO-->
+
+  <!--#region [rgba(17, 65, 120, 0.1) ]-->
+
+  <div id="Main" class="container">
+      
+    <!--TODO-->
+    <div class="content-block magnify">  
+      <div class="image-block">
+        <img src="Images/moon-flower_MED.jpg" alt="">
+      </div>
+      <div class="caption">Moon Flower<br>2021<br>28"x7"<br>watercolor, acrylic on paper</div>
+    </div>
+    <!--TODO-->
+    <div class="content-block">  
+      <div class="image-block">
+       <img src="Images/Under-The-Sea_MED.jpg" alt="">
+      </div>
+      <div class="caption">Moon Flower<br>2021<br>28"x7"<br>watercolor, acrylic on paper</div>
+    </div>  
+    <!--TODO-->
+    <div class="content-block">  
+      <div class="image-block">
+      <img src="Images/Watches_MED.jpg" alt="">
+    </div>
+    <div class="caption">Moon Flower<br>2021<br>28"x7"<br>watercolor, acrylic on paper</div>
+  </div> 
+    <div class="content-block"> <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Cheese.jpg" /> </div>
+    <div class="content-block"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg" /> </div>
+    <div></div>
+    <div></div>
+  </div>
+
+    <!--#endregion-->
+
+
+<!--OPTIMIZE--><!--UGLY--><!--TODO-->
+</div>
+  </body>
+
+  <!--#region [rgba(127, 135, 10, 0.2) ]-->
+
+  <script>
+    $('.content-block').click(function () {
+      $('.content-block').not(this).removeClass('magnify');
+      $(this).toggleClass('magnify');
+    })
+  </script>
+  <!--#endregion-->
+
+
+
+  
+</html>
