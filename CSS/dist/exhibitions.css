@@ -1,10 +1,8 @@
 main {
-  background: #ff0000;
   width: 80%;
 }
 
 .exhibition {
-  background: orange;
   width: 100%;
   padding: 50px;
   box-sizing: border-box;
