@@ -1,88 +1,136 @@
-  <!--#region [rgba(197, 65, 120, 0.1) ]-->
-  <html lang="en">
+<!DOCTYPE html>
+
+<!--#region [HEAD]-->
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Philip Dusel</title>
+  <title>Document</title>
   <link rel="stylesheet" href="CSS/dist/base.css">
-  <link rel="stylesheet" href="CSS/dist/sidebar.css">
-  <link rel="stylesheet" href="CSS/dist/photo-grid.css">
-  <link rel="stylesheet" href="CSS/dist/custom-scroll-bar.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="CSS/dist/custom-scrollbar.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
-<body>
-  <!--#endregion-->
-<!--OPTIMIZE--><!--UGLY--><!--TODO-->
+<!--#endregion-->
 
 
-<div id="Master-Container">
-
-
-
-  <!--#region [Sidebar]-->
-
-  <div id="Right-Sidebar"">
-    <div><a href="work.html">Work</a></div>
-    <div><a href="PDF/CV_2022_PhilipDusel.pdf" target="_blank">About</a></div>
-    <div><a href="contact.html">Contact</a></div>
-  </div>
-  
-  <!--#endregion-->
+<body>                                                
 
 
 
-  <!--#region [MainContent]-->
+  <div id="Page-Master-Container">                      
 
   <div id="Main" class="container">
-      
 
-    <div class="content-block magnify">  
-      <div class="image-block">
-        <img src="Images/moon-flower_MED.jpg" alt="">
-      </div>
-      <div class="caption">Moon Flower<br>2021<br>28"x7"<br>watercolor, acrylic on paper</div>
+
+
+
+
+  <!---------------------------------------------------------------#region [ImageBlock ]-->
+  <div class="content-block magnify">
+    <div class="sticky-block"></div>
+    <div class="image-block">
+      <img src="Images/moon-flower_MED.jpg" alt="">
     </div>
-
-    <div class="content-block">  
-      <div class="image-block">
-       <img src="Images/Under-The-Sea_MED.jpg" alt="">
-      </div>
-      <div class="caption">Moon Flower<br>2021<br>28"x7"<br>watercolor, acrylic on paper</div>
-    </div>  
-
-    <div class="content-block">  
-      <div class="image-block">
-        <img src="Images/Watches_MED.jpg" alt="">
-      </div>
-      <div class="caption">Moon Flower<br>2021<br>28"x7"<br>watercolor, acrylic on paper</div>
-    </div> 
+    <div class="caption-block">cantalope caption<br>2014<br>26" x 17"<br>acrylic on paper</div>
+  </div>
+  <!-------------------------------------------------------------------------#endregion-->
 
 
 
-    <div class="content-block"> <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Cheese.jpg" /> </div>
-    <div class="content-block"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Golde33443.jpg" /> </div>
-    <div></div>
-    <div></div>
+  <!---------------------------------------------------------------#region [ImageBlock ]-->
+  <div class="content-block">
+    <div class="sticky-block"></div>
+    <div class="image-block">
+      <img src="Images/Watches_MED.jpg" alt="">
+    </div>
+    <div class="caption-block">cantalope caption</div>
+  </div>
+  <!-------------------------------------------------------------------------#endregion-->
 
+
+  <!---------------------------------------------------------------#region [ImageBlock ]-->
+  <div class="content-block">
+    <div class="sticky-block">softie sticky</div>
+    <div class="image-block">
+      <img src="Images/Under-The-Sea_MED.jpg" alt="">
+    </div>
+    <div class="caption-block">cantalope caption</div>
+  </div>
+  <!-------------------------------------------------------------------------#endregion-->
+
+  <!---------------------------------------------------------------#region [ImageBlock ]-->
+  <div class="content-block magnify">
+    <div class="sticky-block"></div>
+    <div class="image-block">
+      <img src="Images/moon-flower_MED.jpg" alt="">
+    </div>
+    <div class="caption-block">cantalope caption<br>2014<br>26" x 17"<br>acrylic on paper</div>
+  </div>
+  <!-------------------------------------------------------------------------#endregion-->
+
+
+
+  <!---------------------------------------------------------------#region [ImageBlock ]-->
+  <div class="content-block">
+    <div class="sticky-block"></div>
+    <div class="image-block">
+      <img src="Images/Watches_MED.jpg" alt="">
+    </div>
+    <div class="caption-block">cantalope caption</div>
+  </div>
+  <!-------------------------------------------------------------------------#endregion-->
+
+
+  <!---------------------------------------------------------------#region [ImageBlock ]-->
+  <div class="content-block">
+    <div class="sticky-block">softie sticky</div>
+    <div class="image-block">
+      <img src="Images/Under-The-Sea_MED.jpg" alt="">
+    </div>
+    <div class="caption-block">cantalope caption</div>
+  </div>
+  <!-------------------------------------------------------------------------#endregion-->
 
 
   </div>
 
+
+
+    <!--#region [Sidebar]-->
+    <div id="Sidebar"">
+      <div><a href=" work.html"><h2>Work</h2></a></div>
+      <div><a href="about.html"><h2>About</h2></a></div>
+      <div><a href="contact.html"><h2>Contact</h2></a></div>
+    </div>
     <!--#endregion-->
 
 
 
-  </div>
+
+</div>                    
+
+
+
+
 </body>
 
-  <!--#region [rgba(127, 135, 10, 0.2) ]-->
 
+
+  <!--#region [rgba(177, 15, 170, 0.1) ]-->
   <script>
+    $('.sticky-block').hide();
+    $('html, body, #Page-Master-Container, #Main').addClass('lightboxBackground');
+
+
     $('.content-block').click(function () {
+      $('html, body, #Page-Master-Container, #Main').toggleClass('lightboxBackground');
+      //if ($(".content-block.magnify")[0]){
+    // Do something if class exists
+    $('.sticky-block').toggle();
       $('.content-block').not(this).removeClass('magnify');
       $(this).toggleClass('magnify');
     })
@@ -91,5 +139,24 @@
 
 
 
+
+<!--- 
   
+  <script>
+
+if ($(".content-block.magnify")[0]){
+    // Do something if class exists
+    $('.sticky-block').show();
+    } else {
+    // Do something if class does not exist
+    $('.sticky-block').hide();
+    }
+
+</script>
+  
+  
+  $('.sticky-block').hide();  ---->
+
 </html>
+
+

@@ -19,3 +19,10 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(77, 133, 59, 0.2);
 }
+
+@-moz-document url-prefix() {
+  .scroller {
+    scrollbar-width: thin;
+    scrollbar-color: #1e202a;
+  }
+}
