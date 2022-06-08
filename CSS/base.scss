@@ -39,23 +39,12 @@ body {
 
 //#region [ParagraphStyles]
 
-h1 { 
-  font-size:10px;
-  font-family: Helvetica, Arial, sans-serif;
- }
-
-h2 {
-  font-size:10%;
-  font-family: Helvetica, Arial, sans-serif;
-  line-height: 1.6;
- }
-
-h3 { }
-
-h4 { }
-
-p { }
-
+body { font-size:100%; }
+h1 {font-size:1.6rem;}
+h2 {font-size:1.34rem;}
+h3 {font-size:1.2rem;}
+h4 {font-size:1.1rem;}
+p {font-size:.9rem;}
 hr { }
 //#endregion
 
