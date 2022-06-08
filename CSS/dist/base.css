@@ -12,8 +12,8 @@ body {
 }
 
 #Master-Container {
-  background-color: red;
-  border: 18px solid red;
+  background-color: #aca7a7;
+  border: 18px solid silver;
   border-radius: 10px;
   position: fixed;
   top: 1vh;
