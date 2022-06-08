@@ -9,11 +9,12 @@ html {
 
 body {
   font-family: "Source Code Pro", "Courier New", monospace;
+  color: yellow;
 }
 
 #Master-Container {
-  background-color: #747474;
-  border: 18px solid silver;
+  background-color: #8a8a8a;
+  border: 18px solid #8a8a8a;
   border-radius: 10px;
   position: fixed;
   top: 1vh;

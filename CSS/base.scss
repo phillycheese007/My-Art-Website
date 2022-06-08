@@ -1,18 +1,31 @@
+//#region [ImportVariables]
+
+@import 'variables';
+
+//#endregion
 
 
-//#region [rgba(0, 205, 30, 0.1) ]
+
+//#region [PageBase]
 html,body{margin:0;padding:0;}
 html{
-  background-color:white;
+  background-color:$fakePageBorderColor ;
 }
 body {
  // background-image: url("../../Images/flower-pattern.jpg");
 
-  font-family: "Source Code Pro", "Courier New", monospace;
+  font-family: $mainFontFamily ;
+  color: $foregroundColor ;
 }
+//#endregion
+
+
+//#region [MasterContainer]
+
+
 #Master-Container{
-  background-color: rgb(116, 116, 116);
-  border: 18px solid rgb(192, 192, 192);
+  background-color: $backgroundColor;
+  border: $fakePagePadding solid $backgroundColor;
   border-radius: 10px;
   position: fixed;
   top:1vh;
@@ -22,19 +35,5 @@ body {
   overflow-y: scroll;
 }
 
-
-
 //#endregion
-
-
-//#region [rgba(197, 65, 120, 0.1) ]
-
-
-
-
-
-
-//#endregion
-
-
 

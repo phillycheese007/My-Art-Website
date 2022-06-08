@@ -1,0 +1,22 @@
+main {
+  background: #ff0000;
+  width: 80%;
+}
+
+.exhibition {
+  background: orange;
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+.flyerImage {
+  background: brown;
+  border: 3px solid purple;
+  width: 80%;
+}
+.flyerImage img {
+  width: 100%;
+  object-fit: contain;
+}
