@@ -26,22 +26,34 @@ body {
   scrollbar-color: #9fece0;
 }
 
+body {
+  font-size: 100%;
+}
+
 h1 {
-  font-size: 10px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
 }
 
 h2 {
-  font-size: 10%;
-  font-family: Helvetica, Arial, sans-serif;
-  line-height: 1.6;
+  font-size: 1.34rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 0.9rem;
 }
 
 .container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: DodgerBlue;
 }
 
 .content-block {
@@ -69,7 +81,7 @@ img {
 }
 
 .sticky-block {
-  background: burlywood;
+  background: #e99322;
   height: 3px;
   position: sticky;
   top: 0;
@@ -119,7 +131,6 @@ img {
 }
 #Sidebar div {
   padding: 7px;
-  font-size: 24px;
   display: block;
   text-align: right;
 }
