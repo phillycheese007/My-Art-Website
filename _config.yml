@@ -1,3 +1,5 @@
+#########---region [JekyllConfigInfo]
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -18,23 +20,48 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+
+######### endregion
+
+
+#########---region [WebsiteDetails]
+
 title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-#baseurl: ""  #for testing locally
+baseurl: ""  #for testing locally
 #baseurl: "ga_blog" # follow along girafe academy tutorial
-baseurl: "philipdusel.com" #for whne you connect custom domain
+#baseurl: "bilipbusel.com" #for whne you connect custom domain
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+
+######### endregion
+
+
+
+
+
+#########---region [BuildSettings]
+
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+
+######### endregion
+
+
+
+
+
+#########---region [SASS]
+
 
 #sass:
 #  sass_dir: _sass
@@ -43,14 +70,14 @@ plugins:
 sass:
   sass_dir: SCSS
 
-#defaults:
-#  -
-#    scope:
-#      path: ""
-#      type: "posts"
-#    values:
-#        layout: "post"
-#        title: "My Title"
+
+
+######### endregion
+
+
+
+
+#########---region [Links]
 
 #navigation:
 #sidebar:
@@ -73,6 +100,17 @@ sidebar:
 - text: Contact
   url: /contact/
 
+
+######### endregion
+
+
+
+
+
+
+
+#########---region [ExcludeFromProcessing]
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -93,6 +131,18 @@ sidebar:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+######### endregion
+
+
+
+
+
+
+
+
+
+
+#########---region [Collections]
 
 #collections:
 # collections_dir: my_collections
@@ -112,4 +162,41 @@ collections:
     permalink: /:name 
   pixelart1:
     output: true
-    permalink: /:name 
+    permalink: /:categories/:name 
+
+######### endregion
+
+    
+
+
+
+
+#########---region [DefaultFrontmatter]
+
+#default front matter (per collection)
+#  for more info go > https://jekyllrb.com/docs/configuration/front-matter-defaults/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pixelart1" # a collection in your site, in plural form
+    values:
+      layout: "page"
+      smiley: so smiley
+
+
+
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#        layout: "post"
+#        title: "My Title"
+
+
+
+######### endregion
+
+
