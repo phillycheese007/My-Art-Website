@@ -183,7 +183,10 @@ defaults:
     values:
       layout: "page"
       smiley: so smiley
-
+  - scope:
+      path: "assets/PDF"
+    values:
+      permalink: "/CV/""
 
 
 #defaults:
