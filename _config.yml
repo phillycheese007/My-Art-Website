@@ -181,7 +181,7 @@ defaults:
       path: ""
       type: "pixelart1" # a collection in your site, in plural form
     values:
-      layout: "page"
+      layout: "base"
       smiley: so smiley
       image-loc: assets/images/pixelart/medium
 
