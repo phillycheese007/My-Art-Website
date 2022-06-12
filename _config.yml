@@ -183,7 +183,7 @@ defaults:
     values:
       layout: "base"
       smiley: so smiley
-      image-loc: assets/images/pixelart/medium/
+      image-loc: images/pixelart/medium/
 
   - scope:
       path: "assets/PDF"
