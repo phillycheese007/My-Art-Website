@@ -1,0 +1,29 @@
+//---------------------------
+
+$fake-border-width: 20px;
+$fake-border-color: red ;
+//------------------------------
+.fake-page-border-left, .fake-page-border-top, .fake-page-border-bottom {
+  position: fixed;
+}
+.fake-page-border-left {
+  background: $fake-border-color;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: $fake-border-width;
+}
+
+.fake-page-border-top {
+  height: $fake-border-width;
+  background: $fake-border-color;
+  top: 0;
+  width: 100%;
+}
+
+.fake-page-border-bottom {
+  height:$fake-border-width;
+  background: $fake-border-color;
+  bottom: 0;
+  width:100%;
+}

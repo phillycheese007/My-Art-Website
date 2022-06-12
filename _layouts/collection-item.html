@@ -1,0 +1,69 @@
+---
+layout: "base"
+---
+
+<!--<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>-->
+
+
+<main>
+
+  
+<div class="container">
+  <div class="image-block flex-item">
+    <a href="{{site.baseurl}}{{page.image-location}}{{page.image}}" target="blank">
+      <img src="{{site.baseurl}}{{page.image-location}}{{page.image}}" alt="">
+    </a>
+  </div>
+  <div class="context-info-block">
+ 
+      <div class="back-to-images-link"> 
+        <a href="/work/">	
+          <img src="{{site.baseurl}}/icons/back-button-3.svg" />
+        </a>
+      </div>
+
+    <div class="PageNavigation">
+      {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">&#x3C <!--{{page.previous.title}}--></a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}"><!--{{page.next.title}}--> 	&#x3E</a>
+      {% endif %}
+    </div>
+
+    <div class="image-details">
+      {{ page.title }}<br>
+      {{ page.date-created }}<br>
+      {{ page.media }}<br>
+      {{ page.dimensions }}
+    </div>
+
+
+</div>
+
+<div class="image-details-vertical">
+  <p>
+
+    <span>
+      {{ page.media }} &middot;
+      {{ page.dimensions }}
+    </span>
+    {{ page.title }} &middot;
+    {{ page.date-created }} &middot;
+  </p>
+</div>
+
+</main>
+
+
+
+
+
+<!--{{ content }}-->

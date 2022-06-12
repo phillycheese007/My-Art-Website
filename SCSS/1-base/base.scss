@@ -1,0 +1,41 @@
+//#region [Variables]
+
+//------------------------
+$sidebar-width: 250px;
+//------------------------
+
+
+
+
+  //#endregion
+
+html,body {margin: 0;padding: 0;}
+
+//------------------------
+*{box-sizing: border-box;}
+//------------------------
+body {
+  font-family:sans-serif;
+}
+//------------------------
+main {
+  width:96% ;
+  margin:0 auto;
+  padding: 30px 0 0 0;
+  //------bb BREAKPOINTS
+  @include respond-to('small') {
+    width:96% !important;
+    margin:0 auto;
+  }
+  @include respond-to('medium') {
+    width: calc(100% - #{$sidebar-width}) !important;
+    padding-left: 30px;
+    margin: 0 !important;
+  }
+  @include respond-to('large') {
+    width: calc(100% - #{$sidebar-width}) !important;
+    padding-left: 30px;
+    margin: 0 !important;
+  }
+  //------ee BREAKPOINTS
+}

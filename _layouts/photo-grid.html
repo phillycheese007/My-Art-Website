@@ -1,0 +1,18 @@
+---
+layout: "base"
+---
+
+<main>
+  <div class="photo-grid-container">
+    {% for pixelart1 in site.pixelart1 %}
+    <!--<h2>{{ pixelart1.name }}</h2>-->
+    <a href="{{pixelart1.permalink}}">
+      <div class="photo-grid-item">
+        <div class="sticky-block"></div>
+        <div class="image-block">{{ pixelart1.content }}</div>
+      </div>
+    </a>
+  {% endfor %}
+  </div>
+</main>
+

@@ -1,0 +1,14 @@
+---
+layout: "base"
+permalink: "/collectionviewer.html/"
+---
+
+<h1>Collection Viewer page</h1>
+
+
+{% for collection1 in site.collection1 %}
+  <h2>{{ collection1.name }}</h2>
+  {{ collection1.content }}
+{% endfor %}
+
+

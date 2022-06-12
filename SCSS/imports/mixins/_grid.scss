@@ -1,0 +1,16 @@
+$one-column : auto ;
+$two-column : auto auto ;
+$three-column : auto auto auto ;
+$four-column : auto auto auto auto;
+$five-column : auto auto auto auto auto;
+
+
+
+@mixin grid($column-number) {
+  grid-template-columns: $column-number;
+  .grid-item {
+    //border:1px solid green;
+  }
+}
+
+

@@ -1,0 +1,82 @@
+//#region [Imports]
+@import 'imports/variables';
+//#endregion
+
+$img-left-margin :4vw;
+
+
+.container {
+  width: 100%;
+  //background: #66bd5b;
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  justify-content: center;
+  align-content: left;
+  height: 100%;
+  .image-block {
+    //border: 10px solid red;
+    height:90vh;
+    width: 100%;
+    img {
+      width:100%;
+      height:100%;
+      object-fit: contain;
+      object-position: 40% center;
+      cursor: zoom-in;
+    }
+  }
+  .context-info-block {
+    width:190px;
+    position: absolute;
+    right: 0;
+    a {
+      text-decoration: none;
+    }
+    .image-details {
+      background: white;
+      padding:5px;
+      width:100%;
+      //height:50px;
+      font-size:.6rem;
+      width: 140px;
+      margin: 0 auto;
+      display: none;
+    }
+  }
+}
+
+
+/*--
+.image-details-two {
+  margin-left: $img-left-margin;
+  background: green;
+  //height:100px;
+  width:70%;
+  padding-top: 20px;
+}
+--*/
+
+.image-details-vertical {
+ // background:rgb(164, 218, 39);
+  position: fixed;
+  left:0;
+  height:100vh;
+  //width:20px;
+  width:400px;
+  justify-content: end;
+display: flex;
+flex-direction: column;
+  p {
+    margin:0;
+  }
+  span {
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    //text-align: center;
+  }
+  }
+
+

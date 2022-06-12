@@ -1,0 +1,50 @@
+
+
+.sidebar {
+ // background:$sidebar-color;
+  //background: orange;
+ // border-left:2px solid black;
+ 
+
+  padding: 40px 30px 0 11px;
+  //position: fixed;
+  top:0;
+  right:0;
+  text-align: right;
+  font-family: $mono;
+  font-size:$h2-font-size;
+  font-weight: 300;
+  list-style-type: none;
+  ul {
+    padding: 0 10px 0 0;
+    border-right: 2px solid black;
+  }
+  a{
+    text-decoration: none;
+    color: $link-color ;
+  }
+  a.current {
+    color: $link-active ;
+    text-decoration: underline;
+  }
+
+  //------bb BREAKPOINTS
+  @include respond-to('small') {
+    position: relative;
+    height: auto;
+    width:100%;
+  }
+  @include respond-to('medium') {
+    position: fixed;
+    height: 100%;
+    width:200px;
+  }
+  @include respond-to('large') {
+    position: fixed;
+    height: 100%;
+    width:200px;
+  }
+  //------ee BREAKPOINTS
+
+}
+

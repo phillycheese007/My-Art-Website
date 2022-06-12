@@ -1,0 +1,4 @@
+---
+layout: post
+---
+some contentoooo

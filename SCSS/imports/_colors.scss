@@ -1,0 +1,35 @@
+//#region [colorVariables]
+
+//-----------------------------------------------
+$background-color : rgb(121, 121, 121) ;
+$forground-color : rgb(255, 255, 115);
+$sidebar-color : $background-color ;
+//-----------------------------------------------
+$link-active : rgb(61, 236, 61);
+$link-color : $forground-color ;
+//-----------------------------------------------
+$image-border-color : yellow;
+  //#endregion
+
+
+  //#region [EZcolorSetter]
+
+  body { background : $background-color ; }
+  //----------------------------------------------//
+  //main{background: blue;}
+  //----------------------------------------------//
+
+  //----------------------------------------------//
+  .photo-grid-item {
+    .sticky-block {background:$image-border-color;}
+    img{border-color: $image-border-color;}
+  }
+  //----------------------------------------------//
+
+
+
+
+  //#endregion
+
+a { color: $link-color ; }
+p { color:$forground-color ; }

@@ -1,0 +1,36 @@
+.PageNavigation {
+  //background: greenyellow;
+  //border: 2px solid burlywood;
+  font-size: 21px;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+ // height:20px;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+}
+.PageNavigation .prev {
+ // background: pink;
+  text-align: left;
+  float:left;
+}
+.PageNavigation .next {
+  //background: lightblue;
+  float: right;
+  text-align: right;
+}
+
+.back-to-images-link {
+ // border: 2px solid pink;
+  width:30px;
+  height:20px;
+  margin: 0 auto;
+  img {
+    width:100%;
+    height:100%;
+  }
+}
