@@ -186,7 +186,7 @@ defaults:
   - scope:
       path: "assets/PDF"
     values:
-      permalink: "/CV/""
+      permalink: "/CV/"
 
 
 #defaults:
