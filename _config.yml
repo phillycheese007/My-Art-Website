@@ -183,7 +183,7 @@ defaults:
     values:
       layout: collection-item
       smiley: so smiley
-      image-loc: /MY-ASSETS/images/my-art/pixelart/medium/
+      image-loc: MY-ASSETS/images/my-art/pixelart/medium/
       title: "Untitled"
       date-created: "2017"
       media: "acrylic on paper"
