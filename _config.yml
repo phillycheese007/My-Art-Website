@@ -162,7 +162,7 @@ collections:
     permalink: /:name 
   pixelart1:
     output: true
-    permalink: /:categories/:name 
+    permalink: /:categories/:name
 
 ######### endregion
 
@@ -183,10 +183,12 @@ defaults:
     values:
       layout: "page"
       smiley: so smiley
+      image-loc: assets/images/pixelart/medium
+
   - scope:
       path: "assets/PDF"
     values:
-      permalink: "/CV/"
+      permalink: /CV/
 
 
 #defaults:
