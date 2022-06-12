@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"favorites.resources": [
+			{
+				"filePath": "portfolio_blog_ver3\\SCSS\\imports\\mixins\\_breakpoints.scss",
+				"group": "Default"
+			},
+			{
+				"filePath": "portfolio_blog_ver3\\SCSS\\imports\\mixins\\_grid.scss",
+				"group": "Default"
+			},
+			{
+				"filePath": "portfolio_blog_ver3\\SCSS\\2-modules\\photo-grid.scss",
+				"group": "Default"
+			}
+		],
+		"workbench.colorTheme": "Monokai Dimmed",
+		"hide-files.files": []
+	}
+}

@@ -68,7 +68,7 @@ plugins:
 
 #scss partial folder aka imports aka when u import variables from _variables------
 sass:
-  sass_dir: SCSS
+  sass_dir: MY-ASSETS/SCSS
 
 
 
@@ -162,7 +162,7 @@ collections:
     permalink: /:name 
   pixelart1:
     output: true
-    permalink: /:categories/:name
+    permalink: /:categories/:name 
 
 ######### endregion
 
@@ -181,14 +181,15 @@ defaults:
       path: ""
       type: "pixelart1" # a collection in your site, in plural form
     values:
-      layout: "base"
+      layout: collection-item
       smiley: so smiley
-      image-loc: images/pixelart/medium/
+      image-loc: /MY-ASSETS/images/my-art/pixelart/medium/
+      title: "Untitled"
+      date-created: "2017"
+      media: "acrylic on paper"
+      dimensions: '22" x 17"'
 
-  - scope:
-      path: "assets/PDF"
-    values:
-      permalink: /CV/
+
 
 
 #defaults:
