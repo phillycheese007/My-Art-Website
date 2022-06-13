@@ -189,10 +189,10 @@ defaults:
       media: "acrylic on paper"
       dimensions: '22" x 17"'
 
-#  - scope:
-#      path: "/My-ASSETS/pdf"
-#    values:
-#      jaja: bean
+  - scope:
+      path: "/My-ASSETS/pdf"
+    values:
+      permalink: /CV/
 
 
 
