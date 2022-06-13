@@ -1,5 +1,10 @@
 {% unless page.layout == 'front' %}
   <div class="sidebar" style="color: {{ include.color }}">
+
+    <div class="circle"></div>
+
+
+    
     <ul>
   {% for link in site.sidebar %}
       {% assign current = nil %}
