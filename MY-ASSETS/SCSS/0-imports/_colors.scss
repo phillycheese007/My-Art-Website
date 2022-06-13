@@ -6,7 +6,7 @@ $foreground-color : rgb(255, 255, 115);
 $sidebar-color : $background-color ;
 //-----------------------------------------------
 $link-active : rgb(61, 236, 61);
-$link-color : $forground-color ;
+$link-color : $foreground-color ;
 //-----------------------------------------------
 $image-border-color : yellow;
   //#endregion
@@ -32,4 +32,4 @@ $image-border-color : yellow;
   //#endregion
 
 a { color: $link-color ; }
-p { color:$forground-color ; }
+p { color:$foreground-color ; }
