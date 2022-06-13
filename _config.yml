@@ -92,13 +92,13 @@ sass:
 #  url: /en/blog/
 #  layout: post
 
-sidebar:
-- text: Work
-  url: /work/
-- text: About
-  url: /CV/
-- text: Contact
-  url: /contact/
+#sidebar:
+#- text: Work
+#  url: /work/
+#- text: About
+#  url: /CV/
+#- text: Contact
+#  url: /contact/
 
 
 ######### endregion
