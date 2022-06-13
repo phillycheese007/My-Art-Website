@@ -9,7 +9,7 @@
   font-family: $mono;
   font-size:$h2-font-size;
   font-weight: 300;
-  list-style-type: none;
+
   
 /*--
   .circle {
@@ -28,6 +28,7 @@
   ul {
     padding: 0 10px 0 0;
     border-right: 2px solid black;
+    list-style-type: none;
   }
   a{
     text-decoration: none;
