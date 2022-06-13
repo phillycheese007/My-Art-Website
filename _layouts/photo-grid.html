@@ -9,7 +9,12 @@ layout: "base"
     <a href="{{pixelart1.url}}">
       <div class="photo-grid-item">
         <div class="sticky-block"></div>
-        <div class="image-block">{{ pixelart1.content }}</div>
+        <div class="image-block">
+          <!--{{ pixelart1.content }}-->
+          i commented out  the content  above hope below works
+          <img src="{{site.baseurl}}{{pixelart1.image-loc}}{{pixelart1.image}}" alt="">
+
+        </div>
       </div>
     </a>
   {% endfor %}
