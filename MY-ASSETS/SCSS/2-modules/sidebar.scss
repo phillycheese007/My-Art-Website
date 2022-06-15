@@ -38,6 +38,14 @@
     color: $link-active ;
     text-decoration: underline;
   }
+  a.active {
+    color: $link-active ;
+    text-decoration: underline;
+  }
+  li.active {
+    color: $link-active ;
+    text-decoration: underline;
+  }
 
   //------bb BREAKPOINTS
   @include respond-to('small') {

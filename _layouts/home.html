@@ -1,9 +1,15 @@
----
-layout: "base"
----
+<html lang="en">
+  {% include HEAD-section-home.html %}
+<body>
+  {% include sidebar.html color="blue" %}
 
-{% for post in site.posts %}
-<li><a href="{{ post.url }}"">{{post.title}}</a></li>
-{% endfor %}
+  
+  {% include home-page-stuff/pixel-pikachu.html %}
 
-{{ content }}
+  {{ content }}
+
+  {% include footer.html %}
+
+
+</body>
+</html>

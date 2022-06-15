@@ -6,10 +6,10 @@
 
 
     
-    <ul>
+    <!--<ul>
   {% for link in site.sidebar %}
       {% assign current = nil %}
-      {% if page.url == link.url or page.layout == link.layout %}
+      {% if page.url == link.url or page.layout == "collection-item" %}
         {% assign current = 'current' %}
       {% endif %}
 
@@ -18,10 +18,30 @@
       </li>
 
     {% endfor %}
-    </ul>
+    </ul>-->
     <!--<hr>-->
+
+
+    <ul>
+      <li {% if page.url == '/work/' or page.url == '/work.html/' or page.layout == "collection-item" %} class="active"{% endif %}>
+        <a href="{{ site.baseurl }}/work/">Workie</a>
+      </li>
+      <li>
+        <a href="/MY-ASSETS/PDF/CV_PhilipDusel_2022.pdf" target="blank">About</a>
+      </li>
+      <li {% if page.url == '/contact/' or page.url == '/contact.html/' or page.path contains "contact/" %} class="active"{% endif %}>
+        <a href="{{ site.baseurl }}/contact/">Contactie</a>
+      </li>
+    </ul>
   </div>
+
+
+
+
+
 {% endunless %}
+
+
 
 
 
