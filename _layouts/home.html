@@ -1,9 +1,13 @@
 <html lang="en">
-  {% include HEAD-section-home.html %}
+  <head>
+  {% include HEAD-section.html %}
+  <link rel="stylesheet" href="/MY-ASSETS/SCSS/3-layouts/home-page-stuff/pikachu.css">
+</head>
 <body>
   {% include sidebar.html color="blue" %}
 
   
+  {% include home-page-stuff/pixel-pikachu.html %}
   {% include home-page-stuff/pixel-pikachu.html %}
 
   {{ content }}
